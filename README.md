@@ -16,4 +16,4 @@ Cons: all time rerender all DOM elements
 
 Simple sync virtual dom and real dom
 
-Pros: don't rerender all DOM element, just spot update DOM element
+Pros: doesn't re render all DOM element, just spot update DOM element
