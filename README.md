@@ -17,3 +17,7 @@ Cons: all time rerender all DOM elements
 Simple sync virtual dom and real dom
 
 Pros: doesn't re render all DOM element, just spot update DOM element
+
+### virtual-dom-json.js
+
+Description of DOM elements in JSON format
