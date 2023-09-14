@@ -37,3 +37,10 @@ Added react and react-dom to project
 ### virtual-dom-jsx-react-add-jsx.js
 
 Added babel at the top script of index.html for jsx
+
+### store.js
+
+store.subscribe - adds listener to Store
+store.changeState - like action, changes state and runs all listeners
+
+At our listener we add callback with `renderView(store.getState());`, when our lister starts, he starts renderView with new state, and React render/rerender DOM elements
