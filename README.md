@@ -44,3 +44,7 @@ store.subscribe - adds listener to Store
 store.changeState - like action, changes state and runs all listeners
 
 At our listener we add callback with `renderView(store.getState());`, when our lister starts, he starts renderView with new state, and React render/rerender DOM elements
+
+### dispatchAction.js
+
+improved store
