@@ -53,4 +53,6 @@ improved store
 
 add Redux
 
-MVC Model(Store) -> View -> Action
+Flux
+
+### context.js
