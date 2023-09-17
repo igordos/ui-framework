@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI</title>
 
-    <!-- Working for all platforms -->
     <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
 
-    <!-- For browsers -->
     <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/redux@4/dist/redux.js"></script>
 
     <!-- For jsx -->
     <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
@@ -22,6 +22,20 @@
         .logo {
             width: 40px;
             height: auto;
+        }
+
+        .lots {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .lot {
+            border: 1px solid #c5c5c5;
+        }
+
+        .lot_favorite {
+            border: 2px solid #ffb805;
         }
     </style>
 
@@ -35,7 +49,8 @@
     <!-- <script src="./virtual-dom-jsx-react.js"></script> -->
     <!-- <script type="text/jsx" src="./virtual-dom-jsx-react-add-jsx.js"></script> -->
     <!-- <script type="text/jsx" src="./store.js"></script> -->
-    <script type="text/jsx" src="./dispatchAction.js"></script>
+    <!-- <script type="text/jsx" src="./dispatchAction.js"></script> -->
+    <script type="text/jsx" src="./add-redux.js"></script>
 
 </body>
 

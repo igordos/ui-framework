@@ -48,3 +48,9 @@ At our listener we add callback with `renderView(store.getState());`, when our l
 ### dispatchAction.js
 
 improved store
+
+### add-redux.js
+
+add Redux
+
+MVC Model(Store) -> View -> Action
