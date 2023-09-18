@@ -56,3 +56,7 @@ add Redux
 Flux
 
 ### context.js
+
+### react-redux.js
+
+add react-redux, redux-thunk
